@@ -10,7 +10,7 @@ import pyodbc
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 
 CONN_STR = (r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
-            r'DBQ=C:\Users\RESEARCH\Desktop\mdb-server\database.accdb;')
+            r'DBQ=I:\database.accdb;')
 
 PORT = 8090
 
